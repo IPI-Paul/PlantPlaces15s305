@@ -26,7 +26,7 @@ public class OfflineSpecimenDAO extends PlantPlacesDAO implements ISpecimenDAO {
 
         // populate the collection.
         values.put(PLANT_CACHE_ID, specimen.getPlantCacheId());
-        values.put(PLANT_GUID, specimen.getPlantCacheId());
+        values.put(PLANT_GUID, specimen.getPlantGuid());
         values.put(LOCATION, specimen.getLocation());
         values.put(LATITUDE, specimen.getLatitude());
         values.put(LONGITUDE, specimen.getLongitude());
